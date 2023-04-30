@@ -2,6 +2,7 @@ import type { ReactElement } from "react";
 import type { GetStaticProps } from "next";
 import type { NextPageWithLayout } from "../_app";
 
+import { ClearButton } from "@/components/ClearButton";
 import { Layout } from "@/components/Layout";
 import { MetaContainer } from "@/components/MetaContainer";
 
@@ -18,6 +19,7 @@ const JobsId: NextPageWithLayout<Props> = ({ job, preview }) => {
   return (
     <MetaContainer>
       <JobDetail job={job} />
+      {preview && <ClearButton />}
     </MetaContainer>
   );
 };
