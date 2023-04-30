@@ -6,6 +6,7 @@ export interface JobType extends MicroCMSDate {
   title?: string;
   description?: string;
   content?: string;
+  category?: CategoryType;
 }
 
 export interface CategoryType extends MicroCMSDate {
