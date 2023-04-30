@@ -17,7 +17,7 @@ type Props = {
 
 const JobsId: NextPageWithLayout<Props> = ({ job, preview }) => {
   return (
-    <MetaContainer>
+    <MetaContainer title={job.title} description={job.description}>
       <JobDetail job={job} />
       {preview && <ClearButton />}
     </MetaContainer>

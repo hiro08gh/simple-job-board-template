@@ -26,7 +26,7 @@ const CategoriesId: NextPageWithLayout<Props> = ({
   categoryId,
 }) => {
   return (
-    <MetaContainer>
+    <MetaContainer title={categories.find((v) => v.id === categoryId)?.name}>
       <Categories categories={categories} categoryId={categoryId} />
       <Jobs jobs={jobs} />
     </MetaContainer>
