@@ -65,3 +65,13 @@
     padding: 8px 8px;
   }
 }
+
+@media (max-width: 600px) {
+  .inner {
+    width: 100%;
+  }
+
+  .job {
+    margin-top: 24px;
+  }
+}
