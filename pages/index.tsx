@@ -2,6 +2,7 @@ import type { ReactElement } from "react";
 import type { NextPageWithLayout } from "./_app";
 
 import { MetaContainer } from "@/components/MetaContainer";
+import { Categories } from "@/components/Categories";
 import { Jobs } from "@/components/Jobs";
 import { Layout } from "@/components/Layout";
 
@@ -17,9 +18,10 @@ type Props = {
   categories: CategoryType[];
 };
 
-const Home: NextPageWithLayout<Props> = ({ jobs }) => {
+const Home: NextPageWithLayout<Props> = ({ jobs, categories }) => {
   return (
     <MetaContainer>
+      <Categories categories={categories} />
       <Jobs jobs={jobs} />
     </MetaContainer>
   );

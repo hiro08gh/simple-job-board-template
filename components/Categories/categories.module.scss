@@ -1,0 +1,28 @@
+.categories {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  margin-top: 18px;
+}
+
+.category {
+  list-style: none;
+  margin-right: 16px;
+}
+
+.isActive {
+  color: #fff;
+  background: #333;
+  padding: 12px;
+  border-radius: 36px;
+}
