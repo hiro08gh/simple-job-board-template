@@ -1,5 +1,5 @@
 export const meta = {
-  title: "simple-job-board-template",
+  title: "Simple job board",
   description: "description",
   site_url: "",
 } as const;

@@ -1,6 +1,6 @@
 import { Footer } from "./Footer";
 import { Header } from "./Header";
-import { Hero } from "./Hero";
+import { HeroImage } from "./HeroImage";
 
 type Props = {
   isHeroImage?: boolean;
@@ -11,7 +11,7 @@ export const Layout: React.FC<Props> = ({ isHeroImage = false, children }) => {
   return (
     <div>
       <Header />
-      {isHeroImage && <Hero />}
+      {isHeroImage && <HeroImage />}
       {children}
       <Footer />
     </div>

@@ -1,9 +1,9 @@
-.container {
+.heroImage {
   width: 100%;
   margin: 0 auto;
 }
 
-.img {
+.image {
   position: relative;
   width: 100%;
   height: 440px;

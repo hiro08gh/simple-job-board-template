@@ -1,8 +1,10 @@
 import type { ReactElement } from "react";
 import type { NextPageWithLayout } from "./_app";
 
+import { MetaContainer } from "@/components/MetaContainer";
 import { Jobs } from "@/components/Jobs";
 import { Layout } from "@/components/Layout";
+
 import {
   getJobList,
   getCategoryList,
@@ -17,9 +19,9 @@ type Props = {
 
 const Home: NextPageWithLayout<Props> = ({ jobs }) => {
   return (
-    <>
+    <MetaContainer>
       <Jobs jobs={jobs} />
-    </>
+    </MetaContainer>
   );
 };
 

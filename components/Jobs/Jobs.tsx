@@ -17,6 +17,7 @@ export const Jobs: React.FC<Props> = ({ jobs }) => {
             id={job.id}
             title={job.title}
             description={job.description}
+            categoryId={job.category?.id}
             categoryName={job.category?.name}
           />
         ))}
