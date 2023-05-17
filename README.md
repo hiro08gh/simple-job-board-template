@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 3.開発環境へのアクセス
-http://localhost:3000にアクセス
+http://localhost:3000 にアクセス
 
 # Vercel へのデプロイ
 [Vercel Platform](https://vercel.com/)から簡単にデプロイが可能です。
