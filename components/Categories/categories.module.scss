@@ -26,8 +26,8 @@
 }
 
 .isActive {
-  color: #fff;
-  background: #333;
+  color: var(--color-white);
+  background-color: var(--color-black);
   padding: 12px;
   border-radius: 36px;
 }

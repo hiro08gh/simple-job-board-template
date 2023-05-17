@@ -3,7 +3,7 @@
 }
 
 .inner {
-  width: 760px;
+  width: var(--width-base);
   margin: 0 auto;
   padding: 0 16px;
 }

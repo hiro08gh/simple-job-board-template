@@ -3,7 +3,7 @@
 }
 
 .inner {
-  max-width: 1100px;
+  max-width: var(--width-large);
   margin: 0 auto;
   padding: 24px 16px;
 }

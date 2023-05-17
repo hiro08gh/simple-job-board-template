@@ -1,6 +1,9 @@
 :root {
-  --max-width: 1100px;
+  --width-large: 1100px;
+  --width-base: 740px;
   --border-radius: 4px;
+  --color-white: #ffffff;
+  --color-black: #333333;
 }
 
 * {
@@ -17,7 +20,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 a {
